@@ -1,0 +1,28 @@
+{
+  "name": "ts-rollup-example",
+  "version": "1.0.0",
+  "description": "Working through the example at http://bit.ly/2GFws6g",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": ["dist"],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwpeters/ts-rollup-example.git"
+  },
+  "author": "Kevin Peters <kwpeters@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwpeters/ts-rollup-example/issues"
+  },
+  "homepage": "https://github.com/kwpeters/ts-rollup-example#readme",
+  "devDependencies": {
+    "rollup": "^1.10.1",
+    "rollup-plugin-typescript2": "^0.21.0",
+    "typescript": "^3.4.5"
+  }
+}
